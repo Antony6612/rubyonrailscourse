@@ -52,8 +52,7 @@ end
 
 group :production do
   # Use PostGres as the database for Active Record
-  gem 'pg'
-  gem 'rails_12factor'
+  gem 'pg', '~> 0.18.4'
 end
 
 
